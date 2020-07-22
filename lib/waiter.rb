@@ -22,6 +22,6 @@ class Waiter
   end
 
   def best_tipper
-    
+    Meal.all.select {}
   end
 end
