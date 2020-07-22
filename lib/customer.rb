@@ -26,7 +26,9 @@ class Customer
   end
   
   def best_tipper
-    Meal.all.tip
+    tips = []
+    tips << Meal.all.tip
+    tips.sort!
   end
     
 end
