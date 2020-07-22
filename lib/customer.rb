@@ -29,6 +29,7 @@ class Customer
     tips = []
     tips << Meal.all.tip
     tips.sort!
+    tips[-1]
   end
     
 end
