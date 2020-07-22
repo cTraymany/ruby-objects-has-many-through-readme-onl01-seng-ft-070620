@@ -26,7 +26,7 @@ class Customer
   end
   
   def best_tipper
-    
+    Meal.all.tip
   end
     
 end
