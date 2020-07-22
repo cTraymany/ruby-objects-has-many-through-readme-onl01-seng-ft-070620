@@ -24,12 +24,4 @@ class Customer
   def waiters
     meals.map { |meal| meal.waiter }
   end
-  
-  def best_tipper
-    tips = []
-    tips << Meal.all.tip
-    tips.sort!
-    tips[-1]
-  end
-    
 end
