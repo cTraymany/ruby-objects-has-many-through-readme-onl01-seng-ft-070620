@@ -22,10 +22,6 @@ class Waiter
   end
 
   def best_tipper
-    tips = []
-    tips << Meal.all.tip
-    tips.sort!
-    tips[-1]
+    
   end
-
 end
