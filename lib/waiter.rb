@@ -21,6 +21,11 @@ class Waiter
     Meal.all.select { |meal| meal.waiter == self }
   end
 
-
+  def best_tipper
+    tips = []
+    tips << Meal.all.tip
+    tips.sort!
+    tips[-1]
+  end
 
 end
