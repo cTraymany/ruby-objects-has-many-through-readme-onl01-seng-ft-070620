@@ -27,4 +27,6 @@ class Customer
   
   def best_tipper
     
+  end
+    
 end
