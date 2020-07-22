@@ -25,5 +25,6 @@ class Customer
     meals.map { |meal| meal.waiter }
   end
   
+  def best_tipper
     
 end
